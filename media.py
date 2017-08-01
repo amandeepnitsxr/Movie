@@ -1,4 +1,5 @@
 import webbrowser
+import time
 class Movie():
      '''constructor'''
 
@@ -14,7 +15,7 @@ class Movie():
     def show_trailor(self):
 
         '''show trailor'''
-        
+        time.ctime()
         webbrowser.open(self.trailor)
 
 
